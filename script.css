@@ -61,6 +61,19 @@ button.normal{
   transition: 0.2s ;
 }
 
+button.white{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+
 body {
   width: 100%;
 }
@@ -314,17 +327,75 @@ body {
   background-color: #0e023a;
   color: #3e853b;
 }
-
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 #sm-banner .banner-box{
    display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
   background-image: url("img/banner/b17.jpg");
-  min-width: 580px;
+  width: 48%;
   height: 50vh;
   background-size: cover;
   background-position: center;
+  padding: 30px ;
+}
+
+#sm-banner .box2{
+  background-image: url("img/banner/b10.jpg");
+
+}
+
+#sm-banner h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 800px;
+}
+
+#sm-banner span{
+  color: white;
+  font-size: 14px;
+  font-weight: 500px;
+  padding-bottom: 15px;
+}
+
+#sm-banner button:hover{
+  background-color: #00e5ff;
+  color: #f5f840;
+  transition: 0.3s ease;
+}
+
+#sm-banner2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner2 .banner-box2{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/banner/b17.jpg");
+  width: 28%;
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+  padding: 25px ;
+}
+
+#sm-banner2 h2{
+  color: yellow;
+  font-size: 22px;
+  font-weight: 900;
+}
+#sm-banner2 h3{
+  color: rgb(36, 36, 3);
+    font-size: 15px;
+  font-weight: 800;
 }
